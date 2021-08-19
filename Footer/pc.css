@@ -1,0 +1,16 @@
+.footerBox{
+    width:100%;
+    height: 364px;
+    /* background: #09070E; */
+    background: #9beb41;
+}
+.footer{
+    padding:86px 131px 118px 161px;
+}
+.imgBox{
+    width:100%
+}
+.img{
+    width:172px;
+    height: 63px;
+}
