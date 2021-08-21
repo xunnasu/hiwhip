@@ -1,0 +1,55 @@
+.content_bul{
+  display: flex;
+  width:50%;
+  margin: auto;
+}
+.shopList{
+  /* width:60%; */
+}
+.content_bul .shopList li:first-child{
+  background-image: url('../images/shop/new@2x.png') no-repeat;
+}
+.shopImgs{
+  width:167px;
+  height: 167px;
+}
+.explain{
+  width: 170px;
+  font-size: 12px;
+  font-weight: bold;
+  height: 19px;
+  line-height: 19px;
+  margin-top:24px;
+}
+.price{
+  width: 115px;
+  height: 12px;
+  font-size: 13px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #A80707;
+  line-height: 19px;
+  margin-top:12px;
+  display: inline-block;
+  margin-bottom:69px;
+}
+.unit{
+  color: #908D8D;
+}
+.content_text{
+  display: flex;
+  width:50%;
+  margin: auto;
+}
+.title{
+  color: #B0DB00;
+  height: 17px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 17px;
+}
+.context{
+  font-size: 12px;
+  color: #8C9398;
+  margin-bottom:68px
+}

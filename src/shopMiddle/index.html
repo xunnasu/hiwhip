@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="/src/style/style.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/src/bootstrap/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="./pc.css">
+  <script src="../jq/index.js"></script>
+</head>
+<body>
+  <div>
+    <ul class="content_bul row"></ul>
+    <div class="content_text row"></div>
+  </div>
+  <script>
+   $(document).ready(function() { //加载DOM
+			var userList = [{
+					cont: 'Gas Cylinders Nitrous Oxide N20 mosa Cream Chargers',
+					url: '../images/shop/11.jpg',
+          price:'$0.16 - $0.20',
+          unit:'/Piece',
+          // icon:'../images/shop/new@2x.png'
+				},
+				{
+					cont: 'Gas Cylinders Nitrous Oxide N20 mosa Cream Chargers',
+          url: '../images/shop/11.jpg',
+          price:'$0.16 - $0.20',
+          unit:'/Piece',
+				},
+				{
+					cont: 'Gas Cylinders Nitrous Oxide N20 mosa Cream Chargers',
+          url: '../images/shop/33.jpg',
+          price:'$0.16 - $0.20',
+          unit:'/Piece',
+				},
+				{
+					cont: 'Gas Cylinders Nitrous Oxide N20 mosa Cream Chargers',
+          url: '../images/shop/11.jpg',
+          price:'$0.16 - $0.20',
+          unit:'/Piece',
+				},
+				{
+					cont: 'Gas Cylinders Nitrous Oxide N20 mosa Cream Chargers',
+          url: '../images/shop/33.jpg',
+          price:'$0.16 - $0.20',
+          unit:'/Piece'
+				},
+        {
+					cont: 'Gas Cylinders Nitrous Oxide N20 mosa Cream Chargers',
+          url: '../images/shop/11.jpg',
+          price:'$0.16 - $0.20',
+          unit:'/Piece'
+				},
+        {
+					cont: 'Gas Cylinders Nitrous Oxide N20 mosa Cream Chargers',
+          url: '../images/shop/33.jpg',
+          price:'$0.16 - $0.20',
+          unit:'/Piece'
+				},
+			];
+			console.log(userList);
+			$.each(userList, function(i, item) {
+				var data = '<li class="col-4  shopList"><img class="shopImgs" src=" ' + item.url + ' "><p class="explain">' + item.cont + '</p><p class="price">'+ item.price +'<span class="unit">' + item.unit + '</span></p></li>'
+				$('.content_bul').append(data);
+			});
+		});
+
+
+    $(document).ready(function() { //加载说明DOM
+			var textList = [{
+          title:'N2O Cylinders',
+          context:'Our most popular product, the 580-gram Smartwhip N2O cylinders are perfect for on-the-go or a busy environment where charging needs to be done as quickly as possible. With enough nitrous oxide to charge over 70 siphons, you can take full command over your charging needs without ever worrying about running low.'
+				},
+				{
+          title:"Cream Chargers",
+          context:'The original N2O cream charger to hit the market, our disposable cream chargers are especially handy for smaller settings. Filled with 8-grams of food-grade nitrous oxide, create the perfect whipped cream, a quick rapid infusion or swanky cocktail in no time.'
+				},
+				{
+          title:"Cream Dispensers",
+          context:'Crucial for releasing your creations, our cream dispensers are available in steel and aluminium. Three different decorating tips come with each cream dispenser, as well as a custom adapter to ensure you can connect the Smartwhip pressure regulator to any cream dispenser.'
+				},
+				{
+          title:'Smartwhip Accessories',
+          context:'Exclusively designed for Smartwhip, the pressure regulator is a trademark accessory of the Smartwhip brand. It gives you full control over your nitrous oxide gas usage, as well as more creative freedom over the texture of different drinks and dishes.'
+				},
+			];
+			console.log(textList);
+			$.each(textList, function(i, item) {
+				var data = '<p class="title">' + item.title + '</p><p class="context">'+ item.context +'</p>'
+				$('.content_text').append(data);
+			});
+		});
+  </script>
+</body>
+</html>
