@@ -1,10 +1,33 @@
+.header-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  
+}
+
+
+
 .container{
   background: #fff;
   width:100%;
 }
+.container-banner {
+  width: 100%;
+  position: relative;
+}
+.container-banner img {
+  width: 100%;
+}
+.container-banner .banner-us {
+  position: absolute;
+  top:  40.29%;
+  left: 8.61%;
+  width: 26.54%;
+}
 .aboutBox{
   width: 75%;
-  margin:auto;
+  margin: 60px auto;
 }
 .aboutHiwhip{
   color: #14854C; 
@@ -24,4 +47,21 @@
 }
 .thanksImg{
   width:100%;
+}
+@media (max-width: 576px) {
+  .header-container {
+    position: relative;
+  }
+  .nav-item {
+    padding: 10px 0;
+  }
+  .navbar-light .navbar-nav .nav-item .nav-link {
+    color: #70706F
+  }
+  .aboutBox {
+    width: 85%;
+  }
+}
+.navbar-light .navbar-nav .nav-link {
+  color:#fff
 }

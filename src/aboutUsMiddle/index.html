@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/src/style/style.css" />
+  <link rel="stylesheet" type="text/css" href="/src/bootstrap/bootstrap.min.css"/>
+  <link rel="stylesheet" href="../swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../Header/index.css">
+  <link rel="stylesheet" href="../Footer/pc.css">
   <link rel="stylesheet" href="./pc.css">
   <title>Document</title>
 </head>
@@ -11,6 +16,51 @@
 
 </style>
 <body>
+  <nav class="navbar navbar-expand-sm navbar-light header-container">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="logo">
+          <img src="../images/ht/logo-green@2x.png" />
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-sm-0 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link header-item" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link header-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SHOP AS WHOLESALE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header-item active" href="#">OUR FACTORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header-item" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header-item" href="#" >
+              <img class="my-icon" src="/src/images/ht/my@2x.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-banner">
+    <img src="../images/ht/about.png" alt="">
+    <img class="banner-us" src="../images/ht/about-us.png" alt="">
+  </div>
   <div class="container">
     <div class="row aboutBox">
       <div class="contextBox">
@@ -26,5 +76,34 @@
       </div>
     </div>
   </div>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-logo">
+          <img src="../images/ht/hiwhipIco.png" alt="">
+          <div class="footer-logo-line"></div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 footer-item">
+        <p>Click. Charge. Release.</p>
+        <span>The most efficient approach to cream charging</span>
+        <img src="../images/ht/footerImg.png" alt="">
+      </div>
+      <div class="col-12 col-sm-4 footer-item">
+        <p>SWITCH LANGUAGE</p>
+        <span>How It Works</span>
+        <span>Shop</span>
+        <span>Send Business Inquiry</span>
+        <span>About us</span>
+      </div>
+      <div class="col-12 col-sm-4 footer-item">
+        <p>GET 10% OFF ON YOUR FIRST ORDER</p>
+        <input placeholder="Email" />
+        <button>Get Discount Code</button>
+      </div>
+    </div>
+  </footer>
 </body>
+<script src="/src/bootstrap/bootstrap.bundle.min.js"></script>
+
 </html>

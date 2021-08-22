@@ -13,8 +13,8 @@
   width: 100%;
 }
 
-.header-container .header-item {
-  padding: 0 20px;
+.header-container .navbar-nav .header-item {
+  padding: 0 30px;
   font-size: 12px;
 }
 .header-container  .active {

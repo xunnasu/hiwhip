@@ -8,6 +8,12 @@
 .contact-banner .banner {
   width: 100%;
 }
+.contact-banner .banner-us {
+  position: absolute;
+  top:  34.47%;
+  left: 16.57%;
+  width: 32.96%;
+}
 .contactUsBox{
   margin: 60px 0;
   width:100%;
