@@ -58,8 +58,24 @@
 .rememnerCheck{
   margin-bottom:20px;
 }
+.c-line {
+  position: relative;
+}
+.c-line::after {
+  content: '';
+  width: 1px;
+  height: 129px;
+  background: #14854C;
+  opacity: 0.12;
+  position: absolute;
+  right: -30px;
+  top: 60px;
+}
 @media (max-width: 800px) {
   .login {
     width: 100%;
+  }
+  .c-line::after {
+    display: none;
   }
 }
