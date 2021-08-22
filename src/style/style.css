@@ -91,3 +91,8 @@ body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, d
   .dn{
   display: none;
   }
+  .box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

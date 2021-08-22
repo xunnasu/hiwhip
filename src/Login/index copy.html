@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/src/bootstrap/bootstrap.min.css"/>
+  <title>login</title>
+</head>
+<style>
+.loginModular{
+  width: 100%;
+  /* background: chartreuse; */
+}
+.loginBox{
+  /* margin:0 69px; */
+}
+.loginTitle{
+  font-size: 20px;
+  font-weight: bold;
+  color: #B0DB00;
+  line-height: 14px;
+}
+.loginDetails{
+  width:100%;
+  font-size: 10px;
+  color: #8C9398;
+}
+.loginBtn{
+  width: 130px;
+  line-height:33px;
+  text-align: center;
+  background: #B0DB00;
+  border-radius: 17px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.loginMiddle{
+  /* padding: 0 40px 0 50px; */
+}
+.loginRegister{
+  width: 130px;
+  line-height:33px;
+  text-align: center;
+  background: #B0DB00;
+  border-radius: 17px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-top:50px;
+}
+.loginRight{
+  width:167px;
+  margin: auto;
+}
+.loginRight img{
+  width:100%;
+}
+.rememnerCheck{
+  margin-bottom:20px;
+}
+.itemInput input{
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 19px;
+  border:none;
+  font-size:12px;
+  padding-left:37px;
+  outline:none;
+  margin-bottom:31px;
+  line-height: 38px;
+}
+.itemInput input:first-child{
+  margin-bottom:31px;
+
+}
+.itemInput input:nth-child(3){
+  /* margin-bottom:38px; */
+
+}
+.loginEnd{
+  /* width: 60%; */
+  margin-top:68px;
+  font-size: 14px;
+  font-family: Myriad Pro;
+  font-weight: normal;
+  color: #1086BD;
+  line-height: 17px;
+  font-style:oblique;
+  text-align: center;
+}
+</style>
+<body>
+  <div class="loginModular">
+    <div class="row loginBox">
+      <div class="col-12 col-sm-4 loginLeft">
+        <p class="loginTitle">LOGIN</p>
+        <p class="loginDetails">Username or email address</p>
+        <div class="itemInput">
+          <input type="text">
+        </div>
+        <p class="loginPassword">Password</p>
+        <div class="itemInput">
+          <input type="text">
+        </div>
+        <div class="rememnerCheck">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked><span>Remember me</span>
+        </div>
+        <div>
+          <button class="loginBtn">LOG IN</button>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 loginMiddle">
+        <p class="loginTitle">REGISTER</p>
+        <p class="loginDetails">Email address</p>
+        <div class="itemInput">
+          <input type="text">
+        </div>
+        <p class="loginDetails">A password will be sent to your email address.
+          Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <span>privacy policy</span></p>
+        <div>
+          <button class="loginRegister">REGISTER</button>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 loginRight">
+        <img src="../images/ht/loginHiwhip.png" alt="">
+      </div>
+      <div class="row loginEnd">
+        <p class="col-12 col-sm-3">My Dashboard</p>
+        <p class="col-12 col-sm-3">Previous Orders</p>
+        <p class="col-12 col-sm-3">Billing&Shiping</p>
+        <p class="col-12 col-sm-3">Edit Account</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

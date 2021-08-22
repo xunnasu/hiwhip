@@ -4,144 +4,124 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/src/style/style.css" />
   <link rel="stylesheet" type="text/css" href="/src/bootstrap/bootstrap.min.css"/>
+  <link rel="stylesheet" href="../Header/index.css">
+  <link rel="stylesheet" href="../Footer/pc.css">
+  <link rel="stylesheet" href="pc.css">
   <title>login</title>
 </head>
-<style>
-.loginModular{
-  width: 100%;
-  /* background: chartreuse; */
-}
-.loginBox{
-  width: 80%;
-  padding:109px 69px 68px 195px;
-  margin:0 auto;
-}
-.loginTitle{
-  font-size: 20px;
-  font-weight: bold;
-  color: #B0DB00;
-  line-height: 14px;
-}
-.loginDetails{
-  width:100%;
-  font-size: 10px;
-  color: #8C9398;
-}
-.loginBtn{
-  width: 130px;
-  line-height:33px;
-  text-align: center;
-  background: #B0DB00;
-  border-radius: 17px;
-  font-size: 12px;
-  color: #fff;
-  font-weight: 400;
-  cursor: pointer;
-  outline: none;
-  border: none;
-}
-.loginMiddle{
-  /* padding: 0 40px 0 50px; */
-}
-.loginRegister{
-  width: 130px;
-  line-height:33px;
-  text-align: center;
-  background: #B0DB00;
-  border-radius: 17px;
-  font-size: 12px;
-  color: #fff;
-  font-weight: 400;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  margin-top:50px;
-}
-.loginRight{
-  width:167px;
-  margin: auto;
-}
-.loginRight img{
-  width:100%;
-}
-.rememnerCheck{
-  margin-bottom:20px;
-}
-.itemInput input{
-  width: 100%;
-  background: #FFFFFF;
-  box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.06);
-  border-radius: 19px;
-  border:none;
-  font-size:12px;
-  padding-left:37px;
-  outline:none;
-  margin-bottom:31px;
-  line-height: 38px;
-}
-.itemInput input:first-child{
-  margin-bottom:31px;
-
-}
-.itemInput input:nth-child(3){
-  /* margin-bottom:38px; */
-
-}
-.loginEnd{
-  /* width: 60%; */
-  margin-top:68px;
-  font-size: 14px;
-  font-family: Myriad Pro;
-  font-weight: normal;
-  color: #1086BD;
-  line-height: 17px;
-  font-style:oblique;
-  text-align: center;
-}
-</style>
 <body>
-  <div class="loginModular">
-    <div class="row loginBox">
-      <div class="col-12 col-sm-4 loginLeft">
-        <p class="loginTitle">LOGIN</p>
-        <p class="loginDetails">Username or email address</p>
-        <div class="itemInput">
-          <input type="text">
+  <!-- header start -->
+  <nav class="navbar navbar-expand-sm navbar-light header-container">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="logo">
+          <img src="../images/ht/logo-green@2x.png" />
         </div>
-        <p class="loginPassword">Password</p>
-        <div class="itemInput">
-          <input type="text">
-        </div>
+      </a>
+      <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-sm-0 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link header-item" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link header-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SHOP AS WHOLESALE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header-item" href="#">OUR FACTORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header-item" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header-item" href="#" >
+              <img class="my-icon" src="/src/images/ht/my@2x.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- header end -->
+
+  <!-- body start -->
+  <div class="login row">
+    <div class="col-12 col-sm-4">
+      <div class="login-box">
+        <p class="login-title">LOGIN</p>
+        <p class="login-label">Username or email address</p>
+        <input class="login-input" type="text">
+        <p class="login-label">Password</p>
+        <input class="login-input" type="text">
         <div class="rememnerCheck">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked><span>Remember me</span>
         </div>
-        <div>
-          <button class="loginBtn">LOG IN</button>
-        </div>
       </div>
-      <div class="col-12 col-sm-4 loginMiddle">
-        <p class="loginTitle">REGISTER</p>
-        <p class="loginDetails">Email address</p>
-        <div class="itemInput">
-          <input type="text">
-        </div>
-        <p class="loginDetails">A password will be sent to your email address.
-          Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <span>privacy policy</span></p>
-        <div>
-          <button class="loginRegister">REGISTER</button>
-        </div>
+      <button class="login-btn">LOG IN</button>
+    </div>
+    <div class="col-12 col-sm-4">
+      <div class="login-box">
+        <p class="login-title">REGISTER</p>
+        <p class="login-label">Email address</p>
+        <input class="login-input" type="text">
+        <p class="login-label">A password will be sent to your email address.
+          Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our 
+          <span>privacy policy</span>
+        </p>
       </div>
-      <div class="col-12 col-sm-4 loginRight">
-        <img src="../images/ht/loginHiwhip.png" alt="">
-      </div>
-      <div class="row loginEnd">
-        <p class="col-12 col-sm-3">My Dashboard</p>
-        <p class="col-12 col-sm-3">Previous Orders</p>
-        <p class="col-12 col-sm-3">Billing&Shiping</p>
-        <p class="col-12 col-sm-3">Edit Account</p>
+      <button class="login-btn">REGISTER</button>
+    </div>
+    <div class="col-12 col-sm-4">
+      <div class="login-box login-box-bottom ">
+        <img class="login-img"  src="../images/ht/loginHiwhip.png" alt="">
       </div>
     </div>
   </div>
+  <!-- body end -->
+
+  <!-- footer start -->
+  <footer class="footer">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-logo">
+          <img src="../images/ht/hiwhipIco.png" alt="">
+          <div class="footer-logo-line"></div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 footer-item">
+        <p>Click. Charge. Release.</p>
+        <span>The most efficient approach to cream charging</span>
+        <img src="../images/ht/footerImg.png" alt="">
+      </div>
+      <div class="col-12 col-sm-4 footer-item">
+        <p>SWITCH LANGUAGE</p>
+        <span>How It Works</span>
+        <span>Shop</span>
+        <span>Send Business Inquiry</span>
+        <span>About us</span>
+      </div>
+      <div class="col-12 col-sm-4 footer-item">
+        <p>GET 10% OFF ON YOUR FIRST ORDER</p>
+        <input placeholder="Email" />
+        <button>Get Discount Code</button>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
 </body>
+<script src="/src/bootstrap/bootstrap.bundle.min.js"></script>
+
 </html>
