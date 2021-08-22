@@ -1,70 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="/src/bootstrap/bootstrap.min.css"
-        />
-        <link rel="stylesheet" type="text/css" href="/src/jq/index.js" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="/src/bootstrap/bootstrap.min.js"
-        />
-        <link rel="stylesheet" type="text/css" href="./pc.css" />
-        <title>contactUs</title>
-    </head>
-    <body>
-        <div class="contactUsBox">
-            <div class="contacUS">
-                <div class="contactUsTxt">
-                    <p class="contactTitle">Send us a message<br /></p>
-                    <p class="contactDetails">
-                        You can contact us with anything related to our
-                        Products. We’ll get in touch with you as soon as
-                        possible.
-                    </p>
-                </div>
-                <div class="row contactInpput">
-                    <div class="col-12 col-sm-6 itemInput">
-                        <input type="text" placeholder="First Name" />
-                    </div>
-                    <div class="col-12 col-sm-6 itemInput">
-                        <input type="text" placeholder="Last Name" />
-                    </div>
-                    <div class="col-12 col-sm-6 itemInput">
-                        <input type="text" placeholder="Email" />
-                    </div>
-                    <div class="col-12 col-sm-6 itemInput">
-                        <input type="text" placeholder="Country" />
-                    </div>
-                    <div class="col-12 col-sm-12 itemInput">
-                        <input type="text" placeholder="Your Phone Number" />
-                    </div>
-                    <div class="col-12 col-sm-12 itemInput">
-                        <textarea placeholder="Message ..."></textarea>
-                    </div>
-                    <div class="col-12 col-sm-12 infoBox">
-                        <p>
-                            Rainbow Commerce B.V. Rainbow Commerce B.V.
-                            Raadhuisstraat 20 1016DE Amsterdam.Netherlands
-                        </p>
-                        <p>
-                            support@smartwhip.com / (+31) 20 244 25 90/ Mon -
-                            Fri, 09:00 - 17:30 GMT +1
-                        </p>
-                        <p>
-                            VAT: NL860635004B01 / CoC: 76470482 / Bank account
-                            holder: Rainbow Commerce B.V / IBAN: BE16 9671 4721
-                            8074 / SWIFT/BIC: TRWIBEB1XXX
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/src/bootstrap/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/src/jq/index.js" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/src/bootstrap/bootstrap.min.js"
+    />
+    <link rel="stylesheet" type="text/css" href="./pc.css" />
+    <link rel="stylesheet" href="../Header/index.css">
+    <link rel="stylesheet" href="../Footer/pc.css">
+    <title>contactUs</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <nav class="navbar navbar-expand-sm navbar-light header-container">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <div class="logo">
+            <img src="../images/ht/logo-green@2x.png" />
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-sm-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link header-item" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link header-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SHOP AS WHOLESALE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#">OUR FACTORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item active" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#" >
+                <img class="my-icon" src="/src/images/ht/my@2x.png" />
+              </a>
+            </li>
+          </ul>
         </div>
-    </body>
+      </div>
+    </nav>
+    <!-- header end -->
+    <div class="contact-banner">
+      <img class="banner" src="../images/ht/contact-banner.png" alt="" />
+    </div>
+    <div class="contactUsBox">
+      <div class="contacUS">
+        <div class="contactUsTxt">
+          <p class="contactTitle">Send us a message<br /></p>
+          <p class="contactDetails">
+            You can contact us with anything related to our Products. We’ll get
+            in touch with you as soon as possible.
+          </p>
+        </div>
+        <div class="row contactInpput">
+          <div class="col-12 col-sm-6 itemInput">
+            <input type="text" placeholder="First Name" />
+          </div>
+          <div class="col-12 col-sm-6 itemInput">
+            <input type="text" placeholder="Last Name" />
+          </div>
+          <div class="col-12 col-sm-6 itemInput">
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="col-12 col-sm-6 itemInput">
+            <input type="text" placeholder="Country" />
+          </div>
+          <div class="col-12 col-sm-12 itemInput">
+            <input type="text" placeholder="Your Phone Number" />
+          </div>
+          <div class="col-12 col-sm-12 itemInput">
+            <textarea placeholder="Message ..." ></textarea>
+          </div>
+          <div class="col-12 col-sm-12 infoBox">
+            <p>
+              <img style="width:14px" src="../images/ht/icon1.png" alt="">
+              Rainbow Commerce B.V. Rainbow Commerce B.V. Raadhuisstraat 20
+              1016DE Amsterdam.Netherlands
+            </p>
+            <p>
+              <img style="width:14px" src="../images/ht/icon2.png" alt="">
+              support@smartwhip.com / (+31) 20 244 25 90/ Mon - Fri, 09:00 -
+              17:30 GMT +1
+            </p>
+            <p>
+              <img style="width:14px" src="../images/ht/icon3.png" alt="">
+              VAT: NL860635004B01 / CoC: 76470482 / Bank account holder: Rainbow
+              Commerce B.V / IBAN: BE16 9671 4721 8074 / SWIFT/BIC: TRWIBEB1XXX
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-logo">
+            <img src="../images/ht/hiwhipIco.png" alt="">
+            <div class="footer-logo-line"></div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 footer-item">
+          <p>Click. Charge. Release.</p>
+          <span>The most efficient approach to cream charging</span>
+          <img src="../images/ht/footerImg.png" alt="">
+        </div>
+        <div class="col-12 col-sm-4 footer-item">
+          <p>SWITCH LANGUAGE</p>
+          <span>How It Works</span>
+          <span>Shop</span>
+          <span>Send Business Inquiry</span>
+          <span>About us</span>
+        </div>
+        <div class="col-12 col-sm-4 footer-item">
+          <p>GET 10% OFF ON YOUR FIRST ORDER</p>
+          <input placeholder="Email" />
+          <button>Get Discount Code</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="/src/bootstrap/bootstrap.bundle.min.js"></script>
+
 </html>

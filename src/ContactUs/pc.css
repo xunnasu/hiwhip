@@ -1,10 +1,28 @@
+.header-container .header .header-item {
+  color: #70706F;
+}
+.contact-banner {
+  position: relative;
+  width: 100%;
+}
+.contact-banner .banner {
+  width: 100%;
+}
 .contactUsBox{
+  margin: 60px 0;
   width:100%;
   background: #fff;
 }
+
 .contacUS{
-  width: 60%;
+  width: 50%;
   margin:auto;
+}
+
+@media (max-width: 576px) {
+  .contacUS {
+    width: 80%;
+  }
 }
 .contactTitle{
   font-size: 20px;
@@ -43,6 +61,7 @@
   padding-left:37px;
   outline:none;
   line-height: 60px;
+  resize: none;
 }
 input::-webkit-input-placeholder { 
   color: #ccc; 
