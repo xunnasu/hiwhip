@@ -16,8 +16,11 @@
 </head>
 <body>
   <div>
-    <ul class="content_bul row"></ul>
-    <div class="content_text row"></div>
+    <div class="shopPart">
+      <ul class="row content_bul"></ul>
+      <div class="row content_text shop"></div>
+    </div>
+
   </div>
   <script>
    $(document).ready(function() { //加载DOM
@@ -67,7 +70,7 @@
 			];
 			console.log(userList);
 			$.each(userList, function(i, item) {
-				var data = '<li class="col-4  shopList"><img class="shopImgs" src=" ' + item.url + ' "><p class="explain">' + item.cont + '</p><p class="price">'+ item.price +'<span class="unit">' + item.unit + '</span></p></li>'
+				var data = '<li class="col-12 col-sm-4 shop"><img class="shopImgs" src=" ' + item.url + ' "><p class="explain">' + item.cont + '</p><p class="price">'+ item.price +'<span class="unit">' + item.unit + '</span></p></li>'
 				$('.content_bul').append(data);
 			});
 		});
@@ -93,7 +96,7 @@
 			];
 			console.log(textList);
 			$.each(textList, function(i, item) {
-				var data = '<p class="title">' + item.title + '</p><p class="context">'+ item.context +'</p>'
+				var data = '<p class="col-12 col-sm-12 title">' + item.title + '</p><p class="col-12 col-sm-12 context">'+ item.context +'</p>'
 				$('.content_text').append(data);
 			});
 		});
