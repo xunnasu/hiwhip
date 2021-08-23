@@ -1,7 +1,25 @@
 
+.header-container .header .header-item {
+  color: #70706F;
+}
+.contact-banner {
+  position: relative;
+  width: 100%;
+  margin-bottom:65px;
+}
+.contact-banner .banner {
+  width: 100%;
+}
+.contact-banner .banner-us {
+  position: absolute;
+  top:  34.47%;
+  left: 16.57%;
+  width: 32.96%;
+}
 .shopPart{
   width:60%;
   margin:0 auto;
+
 }
 .content_bul{
   width: 100%;
