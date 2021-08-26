@@ -18,7 +18,7 @@
   color: #130505;
 }
 .mailInputImg{
-  width: 100%;
+  width: 95%;
   background: #FFFFFF;
   box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.06);
   border-radius: 19px;
@@ -28,6 +28,10 @@
   outline:none;
   margin-bottom:31px;
   line-height: 38px;
+  box-sizing:border-box;
+}
+.mailYes{
+    box-sizing:border-box;
 }
 .mailInput{
   width: 313px;
@@ -35,6 +39,7 @@
   background: #FFFFFF;
   margin-top: 13px;
   margin-bottom: 20px;
+  box-sizing:border-box;
 }
 .mailImg{
   width:150px;
@@ -51,6 +56,7 @@
   cursor: pointer;
   outline: none;
   border: none;
+  box-sizing:border-box;
 }
 .agree{
   font-size: 20px;
@@ -89,7 +95,6 @@
     color: #130505;
   }
   .yesBtn{
-    width: 333px;
     line-height:33px;
     text-align: center;
     background: #B0DB00;
@@ -111,7 +116,7 @@
     margin-top:16px;
   }
   .yesBtn{
-    width: 333px;
+    width: 100%;
     line-height:33px;
     text-align: center;
     background: #B0DB00;
@@ -122,6 +127,7 @@
     cursor: pointer;
     outline: none;
     border: none;
+    box-sizing: border-box;
   }
   .containers {
     background: rgba(0, 0, 0, 0.3);
@@ -129,6 +135,9 @@
     transition: all 0.3s;
     display: flex;
     flex-direction: column;
-    padding: 30px 85px 53px 88px;
+    box-sizing: border-box;
+    border-radius:4px;
+    width: 90%;
+    padding: 30px 15px 53px 18px
   }
 } 
