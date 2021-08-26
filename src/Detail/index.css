@@ -1,0 +1,35 @@
+.detail {
+
+}
+.detail .breadcrumb {
+  margin-bottom: 0;
+}
+.detail .breadcrumb-item {
+  font-size: 12px;
+  color: #525355;
+  font-family: Myriad Pro;
+  font-weight: 400;
+  font-size: 17px;
+}
+.detail .breadcrumb-item+.active {
+  color: #140909;
+}
+.detail .detail-title {
+  position: relative;
+}
+.detail .detail-title::after {
+  content: '';
+  width: 14px;
+  height: 3px;
+  background: #0E0E0E;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.detail .detail-logo-title {
+  font-size: 27px;
+  font-family: Arial Black;
+  font-weight: 400;
+  color: #B0DB00;
+}
