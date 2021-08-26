@@ -1,0 +1,143 @@
+.mailboxPopup{
+  width: 100%;
+}
+.mailBox{
+  padding:20px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.text{
+  font-size: 38px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #130505;
+}
+.mailInputImg{
+  width: 95%;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 19px;
+  border:none;
+  font-size:12px;
+  padding-left:20px;
+  outline:none;
+  margin-bottom:31px;
+  line-height: 38px;
+  box-sizing:border-box;
+}
+.mailYes{
+    box-sizing:border-box;
+}
+.mailInput{
+  width: 313px;
+  height: 45px;
+  background: #FFFFFF;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  box-sizing:border-box;
+}
+.mailImg{
+  width:150px;
+}
+.yesBtn{
+  width: 333px;
+  line-height:33px;
+  text-align: center;
+  background: #B0DB00;
+  border-radius: 17px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-sizing:border-box;
+}
+.agree{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  color: #130505;
+}
+
+.tipsBox {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #130505;
+}
+.containers {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  transition: all 0.3s;
+  padding: 30px 85px 53px 88px;
+}
+.title {
+    font-size: 21px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #130505;
+  }
+  .context{
+    font-size: 14px;
+    color: #130505;
+  }
+  .yesBtn{
+    line-height:33px;
+    text-align: center;
+    background: #B0DB00;
+    border-radius: 17px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  @media (max-width: 576px) {
+  .agree{
+    font-size: 11px;
+    font-family: Arial;
+    font-weight: 400;
+    color: #130505;
+    text-align: center;
+    margin-top:16px;
+  }
+  .yesBtn{
+    width: 100%;
+    line-height:33px;
+    text-align: center;
+    background: #B0DB00;
+    border-radius: 17px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+  }
+  .containers {
+    background: rgba(0, 0, 0, 0.3);
+    background: #fff;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius:4px;
+    width: 90%;
+    padding: 30px 15px 53px 18px
+  }
+} 
